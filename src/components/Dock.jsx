@@ -4,8 +4,11 @@ import gsap from "gsap";
 
 import {dockApps} from "#constants/index.js";
 import {useGSAP} from "@gsap/react";
+import useWindowStore from "#store/window.js";
 
 const Dock = () => {
+
+    const { openWindow, closeWindow, windows } = useWindowStore();
 
     const dockRef = useRef(null);
 
@@ -23,7 +26,7 @@ const Dock = () => {
               const center = iconLeft - left + width / 2;
               const distance = Math.abs(mouseX - center);
 
-              const intensity = Math.exp(-(distance ** 2.5)/ 2000);
+              const intensity = Math.exp(-(distance ** 2.5)/ 20000);
 
               gsap.to(icon, {
                   scale: 1 + 0.25 * intensity,
@@ -53,7 +56,21 @@ const Dock = () => {
     }, []);
 
     const toggleApp = (app) => {
-        // TODO Implement Open Window Logic
+        if(!app.canOpen) return;
+
+        const window = windows[app.id];
+
+        if (!window) {
+            console.error(`Window not found for app: ${app.id}`);
+            return;
+        }
+
+        if(window.isOpen) {
+            closeWindow(app.id);
+        } else {
+            openWindow(app.id);
+        }
+
     };
 
     return (

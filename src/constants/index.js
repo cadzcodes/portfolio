@@ -77,11 +77,11 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
+        date: "Nov 25, 2025",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+            "Comprehensive Guide to NestJS",
         image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        link: "https://www.linkedin.com/posts/cadz_nestjs-beginners-guide-activity-7398965303906467840-a0wg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF3H2rABa1-TR-GenRRFFTRNVqUmGIPjGAY",
     },
     {
         id: 2,

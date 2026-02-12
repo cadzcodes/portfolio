@@ -86,17 +86,17 @@ const blogPosts = [
     {
         id: 2,
         date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+        title: "CS50W: Web Programming with Python and JavaScript",
         image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        link: "https://x.com/cadzcodes/status/2021825527699714549?s=20",
     },
-    {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-    },
+    // {
+    //     id: 3,
+    //     date: "Aug 15, 2025",
+    //     title: "The Ultimate Guide to Mastering GSAP Animations",
+    //     image: "/images/blog3.png",
+    //     link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    // },
 ];
 
 const techStack = [
@@ -280,7 +280,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Galaw Go!",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -288,30 +288,29 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Galaw Go.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "Using AI-driven motion analysis, GalawGo! evaluates posture, form, and movement efficiency, delivering instant feedback to help users improve their workouts, prevent injuries, and optimize exercise.", 
+                        "The platform securely stores performance data in a blackbox IoT system, allowing users to monitor progress.",
+                        "GalawGo! empowers users to train smarter, move better, and achieve peak performance through intelligent, connected fitness technology."
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "galaw-go.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://www.google.com/",
                     position: "top-20 left-20",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "galaw-go.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -324,7 +323,7 @@ const WORK_LOCATION = {
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://www.figma.com/design/E9uCirzGsYWIRCLnHENqsr/GalawGO-?node-id=0-1&t=oocWdHvcTASFap5I-1",
                     position: "top-60 left-5",
                 },
             ],

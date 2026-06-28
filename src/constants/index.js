@@ -88,7 +88,7 @@ const blogPosts = [
         date: "Aug 28, 2025",
         title: "CS50W: Web Programming with Python and JavaScript",
         image: "/images/blog2.png",
-        link: "https://x.com/cadzcodes/status/2021825527699714549?s=20",
+        link: "https://www.facebook.com/share/p/1HFRY6PYqk/",
     },
     // {
     //     id: 3,
@@ -106,7 +106,7 @@ const techStack = [
     },
     {
         category: "Mobile",
-        items: ["React Native", "Expo"],
+        items: ["React Native", "Java", "Kotlin"],
     },
     {
         category: "Styling",
@@ -123,7 +123,12 @@ const techStack = [
     {
         category: "Dev Tools",
         items: ["Git", "GitHub", "Docker"],
+    }, 
+    {
+        category: "Game Dev",
+        items: ["Unity", "C#"],
     },
+
 ];
 
 const socials = [
@@ -294,7 +299,7 @@ const WORK_LOCATION = {
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "Using AI-driven motion analysis, GalawGo! evaluates posture, form, and movement efficiency, delivering instant feedback to help users improve their workouts, prevent injuries, and optimize exercise.", 
+                        "Using AI-driven motion analysis, GalawGo! evaluates posture, form, and movement efficiency, delivering instant feedback to help users improve their workouts, prevent injuries, and optimize exercise.",
                         "The platform securely stores performance data in a blackbox IoT system, allowing users to monitor progress.",
                         "GalawGo! empowers users to train smarter, move better, and achieve peak performance through intelligent, connected fitness technology."
                     ],
@@ -332,7 +337,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Vi 3v3 Arena",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -340,44 +345,90 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Vi 3v3 Arena.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "Enter the World of Pangaea...",
+                        "A once-harmonious land forged by the Gods of Light now teeters on the edge of ruin.",
+                        "From the depths, corruption stirs — silent, relentless, and ready to consume.",
+                        "You are a Lifeless — a vessel untouched by destiny, awakened in an age where myths are fading and chaos rises.",
+                        "Vi 3v3 Arena is a cross-platform Action Arena Brawler where every match is a battle for survival.",
+                        "Face off in fast-paced, team-based combat where mastery of melee, magic, and movement is key.",
+                        "Choose your hero, fight alongside allies, and leave your mark on a world desperate for a spark of hope.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "vi3v3website.app",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://vi3v3website-mu.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
-                    icon: "/images/image.png",
+                    name: "vi3v3arena.mp4",
+                    icon: "/images/youtube.png",
                     kind: "file",
-                    fileType: "img",
+                    fileType: "url",
+                    href: "https://www.youtube.com/watch?v=fMMyWzqCD4I",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
+                    name: "Vi3v3Arena.exe",
+                    icon: "/images/vilogo.webp",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://www.facebook.com/vi3v3arena",
                     position: "top-60 right-20",
+                },
+            ],
+        },
+
+        // ▶ Project 4
+        {
+            id: 8,
+            name: "Tagpo - Wedding and Events",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-52 left-80",
+            windowPosition: "top-[20vh] left-7",
+            children: [
+                {
+                    id: 1,
+                    name: "Tagpo - Wedding and Events.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 right-10",
+                    description: [
+                        "Tagpo is a wedding and events photography brand rooted in the belief that every love story deserves to be told with artistry and heart.",
+"Based in Cavite, Philippines, we craft visual narratives that feel as timeless as the moments they preserve — ",
+"from sun-drenched Tagaytay afternoons to intimate evening celebrations.",
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "tagpoweddings.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://tagpo.vercel.app/",
+                    position: "top-20 left-20",
+                },
+                {
+                    id: 4,
+                    name: "tagpo.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 left-80",
+                    imageUrl: "/images/project-2.png",
                 },
             ],
         },
@@ -400,15 +451,15 @@ const ABOUT_LOCATION = {
             position: "top-10 left-5",
             imageUrl: "/images/cadz.jpg",
         },
-        {
-            id: 2,
-            name: "casual-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-28 right-72",
-            imageUrl: "/images/cadz-2.jpg",
-        },
+        // {
+        //     id: 2,
+        //     name: "casual-me.png",
+        //     icon: "/images/image.png",
+        //     kind: "file",
+        //     fileType: "img",
+        //     position: "top-28 right-72",
+        //     imageUrl: "/images/cadz-2.jpg",
+        // },
         {
             id: 3,
             name: "vi_event-me.png",
@@ -428,8 +479,8 @@ const ABOUT_LOCATION = {
             subtitle: "Meet the Developer Behind the Code",
             image: "/images/cadz.jpg",
             description: [
-                "Hey! I’m Cadz 👋 — a backend developer who loves building reliable servers and polishing APIs that scale.",
-                "I specialize in JavaScript, PHP, NestJS, React, and Laravel — I enjoy wiring up fast backends and smoothing out the full-stack experience.",
+                "Hey! Wazzup its me, Cadz 👋 a web developer who loves building reliable servers and polishing APIs that scale.",
+                "I specialize in JavaScript, PHP, NestJS, React, and Laravel. I enjoy wiring up fast backends and smoothing out the full-stack experience.",
                 "I care about solid architecture, clean code, and observability that actually helps during debugging.",
                 "When I'm off the clock, you'll find me deploying pet projects at midnight, optimizing Dockerfiles, or hoarding obscure server stickers 😅",
             ],

@@ -282,57 +282,57 @@ const WORK_LOCATION = {
             ],
         },
 
-        // ▶ Project 2
-        {
-            id: 6,
-            name: "Galaw Go!",
-            icon: "/images/folder.png",
-            kind: "folder",
-            position: "top-52 right-80",
-            windowPosition: "top-[20vh] left-7",
-            children: [
-                {
-                    id: 1,
-                    name: "Galaw Go.txt",
-                    icon: "/images/txt.png",
-                    kind: "file",
-                    fileType: "txt",
-                    position: "top-5 right-10",
-                    description: [
-                        "Using AI-driven motion analysis, GalawGo! evaluates posture, form, and movement efficiency, delivering instant feedback to help users improve their workouts, prevent injuries, and optimize exercise.",
-                        "The platform securely stores performance data in a blackbox IoT system, allowing users to monitor progress.",
-                        "GalawGo! empowers users to train smarter, move better, and achieve peak performance through intelligent, connected fitness technology."
-                    ],
-                },
-                {
-                    id: 2,
-                    name: "galaw-go.com",
-                    icon: "/images/safari.png",
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://www.google.com/",
-                    position: "top-20 left-20",
-                },
-                {
-                    id: 4,
-                    name: "galaw-go.png",
-                    icon: "/images/image.png",
-                    kind: "file",
-                    fileType: "img",
-                    position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://www.figma.com/design/E9uCirzGsYWIRCLnHENqsr/GalawGO-?node-id=0-1&t=oocWdHvcTASFap5I-1",
-                    position: "top-60 left-5",
-                },
-            ],
-        },
+        // // ▶ Project 2
+        // {
+        //     id: 6,
+        //     name: "Galaw Go!",
+        //     icon: "/images/folder.png",
+        //     kind: "folder",
+        //     position: "top-52 right-80",
+        //     windowPosition: "top-[20vh] left-7",
+        //     children: [
+        //         {
+        //             id: 1,
+        //             name: "Galaw Go.txt",
+        //             icon: "/images/txt.png",
+        //             kind: "file",
+        //             fileType: "txt",
+        //             position: "top-5 right-10",
+        //             description: [
+        //                 "Using AI-driven motion analysis, GalawGo! evaluates posture, form, and movement efficiency, delivering instant feedback to help users improve their workouts, prevent injuries, and optimize exercise.",
+        //                 "The platform securely stores performance data in a blackbox IoT system, allowing users to monitor progress.",
+        //                 "GalawGo! empowers users to train smarter, move better, and achieve peak performance through intelligent, connected fitness technology."
+        //             ],
+        //         },
+        //         {
+        //             id: 2,
+        //             name: "galaw-go.com",
+        //             icon: "/images/safari.png",
+        //             kind: "file",
+        //             fileType: "url",
+        //             href: "https://www.google.com/",
+        //             position: "top-20 left-20",
+        //         },
+        //         {
+        //             id: 4,
+        //             name: "galaw-go.png",
+        //             icon: "/images/image.png",
+        //             kind: "file",
+        //             fileType: "img",
+        //             position: "top-52 left-80",
+        //             imageUrl: "/images/project-2.png",
+        //         },
+        //         {
+        //             id: 5,
+        //             name: "Design.fig",
+        //             icon: "/images/plain.png",
+        //             kind: "file",
+        //             fileType: "fig",
+        //             href: "https://www.figma.com/design/E9uCirzGsYWIRCLnHENqsr/GalawGO-?node-id=0-1&t=oocWdHvcTASFap5I-1",
+        //             position: "top-60 left-5",
+        //         },
+        //     ],
+        // },
 
         // ▶ Project 3
         {
@@ -396,7 +396,7 @@ const WORK_LOCATION = {
             name: "Tagpo - Wedding and Events",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 left-80",
+            position: "top-52 left-50",
             windowPosition: "top-[20vh] left-7",
             children: [
                 {

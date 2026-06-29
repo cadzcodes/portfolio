@@ -302,12 +302,37 @@ body {
     }
 
     #resume {
-        @apply w-fit h-fit absolute top-16 left-7/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+        @apply w-fit absolute top-16 left-7/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
 
         #window-header {
+            @apply relative z-10;
+
             h2 {
                 @apply font-bold text-sm text-center flex-1;
             }
+        }
+
+        .resume-scroll {
+            @apply overflow-auto;
+        }
+
+        .pdf-page {
+            margin: 0 !important;
+            padding: 0 !important;
+            background: transparent !important;
+            box-shadow: none !important;
+        }
+
+        .react-pdf__Page__canvas {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .react-pdf__Page__textContent,
+        .react-pdf__Page__annotations {
+            top: 0;
+            left: 0;
         }
     }
 
